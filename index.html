@@ -1,0 +1,126 @@
+[index.html.html](https://github.com/user-attachments/files/27782803/index.html.html)
+# eweaver-about-me.github.io
+Published website for final project
+<!DOCTYPE html>
+<html>
+
+  <head> 
+    <!-- Last Update: 05/9/2026 -->
+    <title> About Me </title>
+    <script src="ElyssaBover_forms.js"></script>
+    <link rel="stylesheet" href="ElyssaBover_formstyles.css">
+  </head>
+
+  <body>
+    <article>
+      <section id="section1">
+        <h1> ABOUT ME </h1>
+        <center> <img src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fci7ytmt.jpg&f=1&nofb=1&ipt=b9cad9a5f062ac00901a86f703a3d94c296b68bcb193b4a53764a59d4fcaf250" width= "350" height= "200" alt = "Small  robot tinkering with a microchip"> </center>
+        <center><b> My name is Elyssa (E) <br> </b>
+        <i> My major is Computer Science <br> </i>
+        <u> I am a Junior <br> </u> </center>
+      </section>
+
+      <section id="section2">
+        <h1> Classes </h1> 
+        <div id="container">
+          <div> <h2> CMPSC 3323 Internet Programming </h2> 
+          <p> This class teaches skills related to internet programming and web publishing. </p> </div> 
+
+          <div> <h2> CMPSC 4213 Data Base Design </h2>
+          <p> This class teaches concepts related to database management systems and its real world applications.</p> </div>
+
+          <div> <h2> CPSMA 2103 Data Structures </h2> 
+          <p> This class teaches about how to code a program in order to sort and store data in a specific way and how to apply it. </p> </div>
+
+          <div><h2> MATH 1513 College Algebra </h2>
+          <p> This class teaches the basics of algebra and introduces foundational concepts for advanced math. </p> </div>
+
+          <div><h2> HIST 2493 US History Surv. Since 1877 </h2>
+          <p> This class studies the history of America from 1877 to the present. </p></div>
+        </div>
+      </section>
+
+      <section id="section4">
+      <div id="grid2">
+        <div> <h2>Enter two numbers</h2> <form>
+          <label>First Value</label>
+            <input type="number" name="firstnum" id="num1">
+	  <label>Second Value</label>
+	    <input type="number" name="secondnum" id="num2">
+          <p id="Error"> Error messages appear here </p><br>
+
+          <h3>Math Operators</h3>
+          <input type="radio" name="operators" onclick="reset_Error();" />   
+            <label>Addition</label>
+	  <input type="radio" name="operators" onclick="reset_Error();" />   
+            <label>Subtraction</label>
+	  <input type="radio" name="operators" onclick="reset_Error();" />   
+            <label>Multiplication</label>
+	  <input type="radio" name="operators" onclick="reset_Error();" />   
+            <label>Division</label>  
+        
+          <input type="submit" value="Solve" onclick="return solve();" />
+          <input type="reset" value="Reset"></form></div>
+
+        <div> <h2>Enter a number</h2> <form>
+          <label>Number</label>
+            <input type="number" name="factnum" id="numf">
+          <p id="Oops"></p><br>
+
+          <input type="submit" value="Enter" onclick="return factorial();reset_Oops();" />
+          <input type="reset" value="Reset"></form>
+
+          <p id="factorial"></p></div>
+
+        <div> <h2>Find the Fibonacci</h2> <form>
+          <label>Number</label>
+            <input type="number" name="fib" id="fibnum">
+          <p id="yikes"></p>
+          <input type="submit" value="Enter" onclick="return fibonacci();reset_yikes();" />
+          <input type="reset" value="Reset"></form></div>
+        
+        <div> <h2>Min Max Range</h2> <form>
+          <label> First Number </label>
+            <input type="number" name="numx" id="x">
+          <label> Second Number </label>
+            <input type="number" name="numy" id="y">
+          <label> Third Number </label>
+            <input type="number" name="numz" id="z">
+          <p id="nope"></p>
+
+          <input type="submit" value="Enter" onclick="return range(); reset_nope();" />
+          <input type="reset" value="Reset"></form></div>
+
+        <div id="box5"> <h2>Mailing List</h2> <form onsubmit="return false">
+          <label> First Name </label>
+            <input type="text" name="list" id="firstname" value="Jane" required>
+          <label> Last Name </label>
+            <input type="text" name="list" id="lastname" value="Doe" required>
+          <label> Email </label>
+            <input type="text" name="list" id="email" value="jane@email.com" required>
+          <label> Zip Code </label>
+            <input type="text" name="list" id="zip" value="98765" required>
+        
+          <input type="submit" value="Join" onclick="process();" />
+          <input type="reset" value="Reset"></form>
+          
+          <ul id="ListF"></ul> <ul id="ListL"></ul> <ul id="ListE"></ul> <ul id="ListZ"></ul></div>
+      </div> 
+      </section>
+
+      <section id="section3">
+        <h1> Hobbies </h1> 
+        <p><ul> <li> Brazilian Jiu-Jitsu </li> <li> Dog Training </li> <li> Basketball </li> </ul></p>
+
+        <iframe class="content" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tenor.com%2FVTtxaUzPZpQAAAAM%2Fshaun.gif&f=1&nofb=1&ipt=9cf6b7aabef0068aaf85b3e0434e8f5902d4a5de2c6cf77967e82808c0dad9fe" frameborder= "0"></iframe>
+
+      </section>
+
+    </article>
+
+    <a href= "https://www.ecok.edu/"> ECU Homepage </a><br>
+  </body>
+
+</html>
+
